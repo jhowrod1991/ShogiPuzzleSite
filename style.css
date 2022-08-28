@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 .menu {
@@ -52,3 +53,28 @@ a:hover{
   color: blue;
 }
 
+.conteudo h2 {
+  text-align: center;
+
+}
+
+/*Formatação para o primeiro paragráfo*/
+.conteudo .p1 {
+  margin-left: 10px;
+}
+
+.conteudo h3 {
+  margin-left: 10px;
+}
+
+.conteudo .p2 {
+  margin-left: 10px;
+}
+
+.conteudo .conclusao{
+  margin-left: 10px;
+}
+
+.conteudo h4 {
+  margin-left: 10px;
+}
