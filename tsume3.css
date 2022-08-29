@@ -56,3 +56,27 @@ a:hover{
 .conteudo {
   margin-left: 10px;
 }
+
+
+button{
+  font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    background-color: gray;
+    color: #fff;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: crimson;
+}
+
+
+div .resp1{
+  background-color: lightblue;
+  margin-left: 10px;
+}
