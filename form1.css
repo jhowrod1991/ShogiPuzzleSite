@@ -32,3 +32,16 @@ button {
 button:hover{
 	background-color: crimson;
 }
+/*Sistema do Quiz*/
+
+
+
+label {
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+div ul {
+	text-decoration: none;
+	list-style: none;
+	}

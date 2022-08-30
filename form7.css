@@ -22,3 +22,26 @@ div .resp1{
 	background-color: lightblue;
 	margin-left: 10px;
 }
+
+button {
+	background-color: gray;
+	margin: 10px;
+
+}
+
+button:hover{
+	background-color: crimson;
+}
+/*Sistema do Quiz*/
+
+
+
+label {
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+div ul {
+	text-decoration: none;
+	list-style: none;
+	}

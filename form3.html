@@ -4,44 +4,64 @@
 		<meta charset="utf-8">
 		<!--estilo da pagina-->
 		<link rel="stylesheet" type="text/css" href="css/form3.css">
-		<title>Shogi Puzzles</title>
+			
+			<title>Shogi Puzzles</title>
+	
 	</head>
-
+ 
 <body>
-	<h1>Puzzle Tsume em 3</h1>
+	<form method="get" type action="formulario.php">
+		<h1>Puzzle Tsume em 3</h1>
 	
-	<div class="form3">
+		<div id="puzzle">
 	
-	<!--Questão 1-->
-	<h4> Questão 1</h4>
-	<img src="img/tsumeem3-01.png" class="img1">	
-	<br><input type="text" name="resp1" class="resp1">
-	<br><br>Qual sequência aplica o Tsume?(Use a notação inglesa)
+	<ul><!--Labels da pagina de tsume-->
+		
+		<li>
+			<label for="questao1">Tsume 1</label><br>
+		<img src="img/tsumeem3-01.png" class="img1">
+		<br><br><input type="text" id="first" name="questao1" class="large" required="required" placeholder="Resposta Tsume N°1">
+
+		</li>
+		
+		<li>
+			<br><br><label for="questao2">Tsume 2</label><br>
+		<img src="img/tsumeem3-02.png" class="img2">
+		<br><br><input type="text" id="second" name="questao2" class="large" required="required" placeholder="Resposta Tsume N°2">
+		</li>
+
+		<li>
+			<br><br><label for="questao3">Tsume 3</label><br>
+		<img src="img/tsumeem3-03.png" class="img3">
+		<br><br><input type="text" id="third" name="questao3" class="large" required="required" placeholder="Resposta Tsume N°3">
+		</li>
+
+		<li>
+			<br><br><label for="questao4">Tsume 4</label><br>
+		<img src="img/tsumeem3-04.png" class="img4">
+		<br><br><input type="text" id="four" name="questao4" class="large" required="required" placeholder="Resposta Tsume N°4">
+		</li>
+
+		<li>
+			<br><br><label for="questao5">Tsume 5</label><br>
+		<img src="img/tsumeem3-05.png" class="img5">
+		<br><br><input type="text" id="five" name="questao5" class="large" required="required" placeholder="Resposta Tsume N°5">
+		</li>
+	</ul>	
 	
-	<!--Questão 2-->
-	<h4> Questão 2</h4>
-	<img src="img/tsumeem3-02.png" class="img2">
-	<br><input type="text" name="resp1" class="resp1">
-	<br><br>Qual sequência aplica o Tsume?(Use a notação inglesa)
-	
-	<!--Questão 3-->
-	<h4> Questão 3</h4>
-	<img src="img/tsumeem3-03.png" class="img3">
-	<br><input type="text" name="resp1" class="resp1">
-	<br><br>Qual sequência aplica o Tsume?(Use a notação inglesa)
-	
-	<!--Questão 4-->
-	<h4> Questão 4</h4>
-	<img src="img/tsumeem3-04.png" class="img4">
-	<br><input type="text" name="resp1" class="resp1">
-	<br><br>Qual sequência aplica o Tsume?(Use a notação inglesa)
-	
-	<!--Questão 5-->
-	<h4> Questão 5</h4>
-	<img src="img/tsumeem3-05.png" class="img5">
-	<br><input type="text" name="resp1" class="resp1">
-	<br><br>Qual sequência aplica o Tsume?(Use a notação inglesa)
-	</div>
+		</div>
+	</form>
+	<p>Clique abaixo para revelar as respostas e veja como se saiu:</p>
+
+	<details closed="">
+			<summary><strong>Mostrar respostas</strong></summary>
+				
+				<p><strong>Tsume N°1:</strong> 1.B*1b 2.Lx1b 3.G*2d</p>
+				<p><strong>Tsume N°2:</strong> 1.N-1b+ 2.Kx1b 3.G*2b</p>
+				<p><strong>Tsume N°3:</strong> 1.+R-1a 2.Kx1a 3.G*2b</p>
+				<p><strong>Tsume N°4:</strong> 1.B-3e+ 2.Gx3e 3.R*2d<br>Se 2.Kx3e 3.R*4e</p>
+				<p><strong>Tsume N°5:</strong> 1.S*1c 2.Nx1c 3.S*2a</p>
+		</details>
 
 
 </body>
