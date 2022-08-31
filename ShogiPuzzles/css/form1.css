@@ -1,0 +1,47 @@
+div .img1 {
+	width: 25%;
+}
+
+div .img2 {
+	width: 25%;
+}
+
+div .img3 {
+	width: 25%;
+}
+
+div .img4 {
+	width: 25%;
+}
+
+div .img5 {
+	width: 25%;
+}
+
+div .resp1{
+	background-color: lightblue;
+	margin-left: 10px;
+}
+
+button {
+	background-color: gray;
+	margin: 10px;
+
+}
+
+button:hover{
+	background-color: crimson;
+}
+/*Sistema do Quiz*/
+
+
+
+label {
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+div ul {
+	text-decoration: none;
+	list-style: none;
+	}

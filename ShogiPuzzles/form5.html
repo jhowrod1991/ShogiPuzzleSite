@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--estilo da pagina-->
+		<link rel="stylesheet" type="text/css" href="css/form5.css">
+			
+			<title>Shogi Puzzles</title>
+	
+	</head>
+ 
+<body>
+	<form method="get" type action="formulario.php">
+		<h1>Puzzle Tsume em 5</h1>
+	
+		<div id="puzzle">
+	
+	<ul><!--Labels da pagina de tsume-->
+		
+		<li>
+			<label for="questao1">Tsume 1</label><br>
+		<img src="img/tsumeem5-01.png" class="img1">
+		<br><br><input type="text" id="first" name="questao1" class="large" required="required" placeholder="Resposta Tsume N°1">
+
+		</li>
+		
+		<li>
+			<br><br><label for="questao2">Tsume 2</label><br>
+		<img src="img/tsumeem5-02.png" class="img2">
+		<br><br><input type="text" id="second" name="questao2" class="large" required="required" placeholder="Resposta Tsume N°2">
+		</li>
+
+		<li>
+			<br><br><label for="questao3">Tsume 3</label><br>
+		<img src="img/tsumeem5-03.png" class="img3">
+		<br><br><input type="text" id="third" name="questao3" class="large" required="required" placeholder="Resposta Tsume N°3">
+		</li>
+
+		<li>
+			<br><br><label for="questao4">Tsume 4</label><br>
+		<img src="img/tsumeem5-04.png" class="img4">
+		<br><br><input type="text" id="four" name="questao4" class="large" required="required" placeholder="Resposta Tsume N°4">
+		</li>
+
+		<li>
+			<br><br><label for="questao5">Tsume 5</label><br>
+		<img src="img/tsumeem5-05.png" class="img5">
+		<br><br><input type="text" id="five" name="questao5" class="large" required="required" placeholder="Resposta Tsume N°5">
+		</li>
+	</ul>	
+	
+		</div>
+	</form>
+	<p>Clique abaixo para revelar as respostas e veja como se saiu:</p>
+
+	<details closed="">
+			<summary><strong>Mostrar respostas</strong></summary>
+				
+				<p><strong>Tsume N°1:</strong> 1.R*1b 2.Kx1b 3.B*3d 4.K-1c 5.B-2c+</p>
+				<p><strong>Tsume N°2:</strong> 1.G*1b 2.Kx1b 3.S-2a= 4.K-2b 5.B-3b+</p>
+				<p><strong>Tsume N°3:</strong> 1.B-3d 2.Px3d 3.R*2b 4.K-1c 5.N*2e</p>
+				<p><strong>Tsume N°4:</strong> 1.G*3b 2.Gx3b 3.L-2b+ 4.Gx2b 5.G*4b</p>
+				<p><strong>Tsume N°5:</strong> 1.P-1b+ 2.Kx1b 3.B-2c+ 4.Kx2c 5.G*1c</p>
+		</details>
+
+
+</body>
+
+</html>
